@@ -1,0 +1,7 @@
+[controller]
+127.0.0.1 ansible_connection=local
+
+[webserver]
+172.31.19.90 ansible_user=ubuntu
+[webserver2]
+172.31.83.38 ansible_user=ec2-user
